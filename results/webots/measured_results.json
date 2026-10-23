@@ -1,0 +1,98 @@
+{
+  "source": "Actual Webots CSV logs only",
+  "date": "2026-10-23",
+  "A": {
+    "samples": 5625,
+    "duration_s": 180.0,
+    "final_position": [
+      5.302967126071639,
+      5.44960438832356
+    ],
+    "final_goal_distance_m": 0.1470334061505475,
+    "goal_reached": true,
+    "first_goal_time_s": 91.232,
+    "travel_distance_m": 8.956283378625479,
+    "replans": 15,
+    "landmark_detection_rows": 72,
+    "rms_distance_to_active_plan_m": 0.008849933397795655
+  },
+  "B": {
+    "epuck1": {
+      "samples": 3750,
+      "duration_s": 120.0,
+      "travel_distance_m": 1.881211537731817,
+      "final_position": [
+        0.7035996448801368,
+        2.177933451146747
+      ],
+      "final_estimate": 0.2,
+      "received_packets": 0,
+      "steps_with_neighbours": 0,
+      "final_goal_distance_m": 0.09308056988213925,
+      "model_loaded": "True",
+      "safe_goal_distance_m": 0.08571219527504659,
+      "safe_goal_reached": false
+    },
+    "epuck2": {
+      "samples": 3750,
+      "duration_s": 120.0,
+      "travel_distance_m": 2.05991968027539,
+      "final_position": [
+        0.6820715080963495,
+        0.8704413360419277
+      ],
+      "final_estimate": 0.38,
+      "received_packets": 0,
+      "steps_with_neighbours": 0,
+      "final_goal_distance_m": 0.0962483722493621,
+      "model_loaded": "True",
+      "safe_goal_distance_m": 0.08577973328454506,
+      "safe_goal_reached": false
+    },
+    "epuck3": {
+      "samples": 3750,
+      "duration_s": 120.0,
+      "travel_distance_m": 2.1303097488281963,
+      "final_position": [
+        2.4166974964098955,
+        2.3263772743021307
+      ],
+      "final_estimate": 0.56,
+      "received_packets": 0,
+      "steps_with_neighbours": 0,
+      "final_goal_distance_m": 0.20852160081852936,
+      "model_loaded": "True",
+      "safe_goal_distance_m": 0.08332193453822259,
+      "safe_goal_reached": false
+    },
+    "epuck4": {
+      "samples": 3750,
+      "duration_s": 120.0,
+      "travel_distance_m": 1.8580614311832904,
+      "final_position": [
+        1.994445092367663,
+        0.919507213295759
+      ],
+      "final_estimate": 0.74,
+      "received_packets": 0,
+      "steps_with_neighbours": 0,
+      "final_goal_distance_m": 0.061267593585230484,
+      "model_loaded": "True",
+      "safe_goal_distance_m": 0.08250223594371377,
+      "safe_goal_reached": false
+    }
+  },
+  "B_final_consensus_spread": 0.54,
+  "A_physics": {
+    "observed_until_s": 180.064,
+    "sample_rows_with_contact_above_floor": 0,
+    "minimum_upright_dot": 0.9844976255403778,
+    "note": "Contacts sampled each 0.032 s physics step; count excludes contacts at or below z=0.012 m. This is a defined diagnostic, not a safety certification."
+  },
+  "B_physics": {
+    "observed_until_s": 120.06400000000001,
+    "sample_rows_with_contact_above_floor": 0,
+    "minimum_upright_dot": 0.9818460195871939,
+    "note": "Contacts sampled each 0.032 s physics step; count excludes contacts at or below z=0.012 m. This is a defined diagnostic, not a safety certification."
+  }
+}

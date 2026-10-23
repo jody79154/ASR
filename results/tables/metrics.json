@@ -1,0 +1,145 @@
+{
+  "A1": {
+    "synthetic_frame_detections": 1,
+    "fused_landmarks": 1,
+    "lidar_beams": 180
+  },
+  "A2": {
+    "dijkstra": {
+      "length_m": 7.691,
+      "nodes_expanded": 2465,
+      "runtime_ms_median": 12.626
+    },
+    "astar": {
+      "length_m": 7.691,
+      "nodes_expanded": 692,
+      "runtime_ms_median": 4.245
+    }
+  },
+  "A3": {
+    "P low": {
+      "gains": [
+        1.5,
+        0,
+        0
+      ],
+      "overshoot_pct": 11.4,
+      "rise_s": 1.1500000000000001,
+      "settle_s": null,
+      "steady_state_error_deg": 5.729
+    },
+    "P high": {
+      "gains": [
+        12,
+        0,
+        0
+      ],
+      "overshoot_pct": 15.21,
+      "rise_s": 0.9500000000000001,
+      "settle_s": 2.65,
+      "steady_state_error_deg": 0.717
+    },
+    "PI": {
+      "gains": [
+        4,
+        2,
+        0
+      ],
+      "overshoot_pct": 18.07,
+      "rise_s": 0.96,
+      "settle_s": 2.95,
+      "steady_state_error_deg": 0.007
+    },
+    "PID": {
+      "gains": [
+        10,
+        0.6,
+        2
+      ],
+      "overshoot_pct": 1.95,
+      "rise_s": 1.0,
+      "settle_s": 1.17,
+      "steady_state_error_deg": 0.832
+    }
+  },
+  "A4": {
+    "goal_reached": true,
+    "initial_path_m": 7.691,
+    "distance_driven_m": 6.81,
+    "time_s": 45.45,
+    "rms_tracking_error_m": 0.441,
+    "final_goal_error_m": 0.125,
+    "replans": 0,
+    "note": "Offline known-map follower. Webots closed-loop replan logic is in controller; no Webots execution claimed."
+  },
+  "B2": {
+    "epsilon": 0.45,
+    "final_consensus_spread": 7.707137540613473e-06,
+    "pso": {
+      "global": {
+        "final_cost": 0.28547,
+        "positions": [
+          [
+            0.751,
+            2.241
+          ],
+          [
+            0.642,
+            0.889
+          ],
+          [
+            2.223,
+            2.153
+          ],
+          [
+            1.96,
+            0.85
+          ]
+        ]
+      },
+      "ring": {
+        "final_cost": 0.28735,
+        "positions": [
+          [
+            0.766,
+            2.247
+          ],
+          [
+            0.62,
+            0.944
+          ],
+          [
+            2.291,
+            2.16
+          ],
+          [
+            1.946,
+            0.882
+          ]
+        ]
+      },
+      "random_baseline_cost": 0.95394
+    }
+  },
+  "B3": {
+    "synthetic_test_accuracy": 0.8567,
+    "per_class_recall": {
+      "0": 0.855,
+      "1": 0.83,
+      "2": 0.884
+    },
+    "synthetic_train_samples": 7200,
+    "synthetic_test_samples": 1800,
+    "proxy_comparison": {
+      "centralised": {
+        "coverage_pct": 100.0,
+        "messages_mean": 640.0
+      },
+      "distributed": {
+        "coverage_pct": 89.09,
+        "messages_mean": 131.25
+      }
+    },
+    "limitation": "Synthetic offline model, not Webots sensor measurements; closed-loop ML success must be verified on Webots."
+  }
+}
